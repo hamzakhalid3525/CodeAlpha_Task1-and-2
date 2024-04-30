@@ -1,0 +1,66 @@
+
+body{
+  background-color: rgb(19, 19, 19);
+}
+  .todo-app{
+  height: 100vh;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.todo-app h1{
+margin: 60px 0;
+}
+
+input{
+padding: 15px;
+border-radius: 10px;
+margin: auto 10px;
+}
+
+button{
+  background-color: burlywood;
+  cursor: pointer;
+}
+.create-btn{
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.delete-btn{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table{
+  border: 2px solid white;
+  margin: 30px;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.td-index{
+  width: 40px;
+  border: 1px solid blue;
+}
+.td-item{
+  width: 300px;
+  border: 1px solid red;
+  
+}
+
+.td-action{
+  width: 80px;
+  /* border: 1px solid orange; */
+}
+
+
+td{
+  text-align: center;
+  border-radius: 10px;
+}

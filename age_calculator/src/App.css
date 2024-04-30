@@ -1,0 +1,79 @@
+.main-container{
+  background-color: blueviolet;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: auto 20px;
+}
+
+.image-div{
+  height: 100%;
+  width: 60%;
+  margin: 0px 60px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.image-div img{
+  width: 100%;
+}
+
+.calculator-div{
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding:  60px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 400px;
+}
+
+.calculator-div h2{
+  margin-bottom: 20px;
+}
+
+.calculator-btns{
+  margin: 20px 0;
+  
+
+}
+
+.calculator-btns button{
+outline: none;
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+}
+
+.calculate-btn{
+  background-color: blueviolet;
+  border: 1px solid transparent;
+  color: white;
+}
+
+
+.reset-btn{
+  border: 1px solid blueviolet
+}
+
+.result{
+font-weight: bold;
+}
+
+.result span{
+  color: blueviolet;
+  margin-left: 10px;
+}
+
+
+.error-msg{
+color: red;
+padding: 10px;
+}
